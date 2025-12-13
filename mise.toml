@@ -1,0 +1,24 @@
+[tools]
+node = "lts"
+bun = "latest"
+rust = "stable"
+
+[tasks.dev]
+description = "Start Tauri development server"
+run = "bun run tauri dev"
+
+[tasks.build]
+description = "Build Tauri application"
+run = "bun run tauri build"
+
+[tasks.install]
+description = "Install dependencies"
+run = "bun install"
+
+[tasks.lint]
+description = "Run linter"
+run = "bun run lint"
+
+[tasks.format]
+description = "Format code"
+run = "bun run format"
