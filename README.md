@@ -1,5 +1,7 @@
 # HikeIQ
 
+> **Note:** This is a sample starter application provided as a self-contained example of what you can build with Tauri + React. I do not actively use this project but offer it as a reference. I have forked this into a more extensive analytics tool that is not open-sourced.
+
 A desktop application for analyzing hiking and fitness activities. Import FIT files from your GPS device, visualize training zones, track elevation gains, and view your routes on interactive maps.
 
 ![Screenshot](screenshot.png)
@@ -83,3 +85,7 @@ HikeIQ stores data locally in your system's app data directory:
 - **Linux**: `~/.local/share/com.shaunlaurens.hikeiq/`
 
 The SQLite database (`fitness.db`) contains all imported activities. Delete this file to reset all data.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
